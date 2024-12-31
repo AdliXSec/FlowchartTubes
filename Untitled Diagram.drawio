@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xb_vYQppYyi4sKvNpap2" name="Register">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1282" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -487,11 +487,25 @@
         <mxCell id="wUpiZvgWu_iz0Ix72_Ge-26" value="output &quot;password tidk sama&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="-47.5" y="1160" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MC_COF9U2SYncFjZ0CjD-1" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MC_COF9U2SYncFjZ0CjD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wUpiZvgWu_iz0Ix72_Ge-26" target="MC_COF9U2SYncFjZ0CjD-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="62" y="1340" />
+              <mxPoint x="240" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC_COF9U2SYncFjZ0CjD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wUpiZvgWu_iz0Ix72_Ge-22" target="MC_COF9U2SYncFjZ0CjD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="rBiqcdUvH6UjehRDOXX-" name="Page-4">
-    <mxGraphModel dx="281" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="rBiqcdUvH6UjehRDOXX-" name="RiwayatTransaksi">
+    <mxGraphModel dx="432" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,36 +518,186 @@
         <mxCell id="iE9ElDGPZ5L5FCWbpP_P-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-2" target="iE9ElDGPZ5L5FCWbpP_P-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-2" value="output &quot;&lt;div&gt;1. semua transaksi&lt;/div&gt;&lt;div&gt;2. pemasukkan&lt;/div&gt;&lt;div&gt;3. pengeluaran&quot;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-2" value="output &quot;&lt;div&gt;1. semua transaksi&lt;/div&gt;&lt;div&gt;2. pemasukkan&lt;/div&gt;&lt;div&gt;3. pengeluaran&lt;/div&gt;&lt;div&gt;4. keluar&quot;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="90" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-4" target="iE9ElDGPZ5L5FCWbpP_P-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iE9ElDGPZ5L5FCWbpP_P-4" value="input menu" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="110" y="250" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-6" target="iE9ElDGPZ5L5FCWbpP_P-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-6" value="menu == 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-7" target="iE9ElDGPZ5L5FCWbpP_P-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-7" target="iE9ElDGPZ5L5FCWbpP_P-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-7" value="menu == 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-8" target="iE9ElDGPZ5L5FCWbpP_P-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-8" value="menu == 3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-9" target="iE9ElDGPZ5L5FCWbpP_P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-3MvoxykZQ2Qau3uPEy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-9" target="Y-3MvoxykZQ2Qau3uPEy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-9" value="menu == 4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-12" value="break;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-14" value="TampilRiwayatPengeluaran(connection, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-15" value="TampilRiwayatPemasukkan(connectin, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-16" value="TampilRiwayat(connection, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-3MvoxykZQ2Qau3uPEy-1" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="t1UZ91pcX-lFugoVHUTK" name="Page-5">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="t1UZ91pcX-lFugoVHUTK" name="TampilRiwayat">
+    <mxGraphModel dx="511" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYsBy2Gb2YR9TnsyDUIi-1" target="wYsBy2Gb2YR9TnsyDUIi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-1" value="TampilRiwayat(MySqlConnection, mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYsBy2Gb2YR9TnsyDUIi-2" target="wYsBy2Gb2YR9TnsyDUIi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-2" value="string query = &quot;SELECT * FROM transaksi WHERE email = &#39;{mail}&#39;&quot;&lt;div&gt;MysqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;MySqlDataReader reader =cmd.ExecuteReader()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="110" width="335" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYsBy2Gb2YR9TnsyDUIi-5" target="wYsBy2Gb2YR9TnsyDUIi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYsBy2Gb2YR9TnsyDUIi-5" target="wYsBy2Gb2YR9TnsyDUIi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-5" value="reader.Read()" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="155" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-6" value="output&amp;nbsp;&lt;div&gt;reader[&#39;jenis_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;saldo_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;tanggal_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;keterangan_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;id_transaksi&#39;]&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-7" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="155" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYsBy2Gb2YR9TnsyDUIi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wYsBy2Gb2YR9TnsyDUIi-6" target="wYsBy2Gb2YR9TnsyDUIi-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="U9UoIrl8vBMsJkwrhvRa" name="Page-6">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="U9UoIrl8vBMsJkwrhvRa" name="TampilRiwayatPemasukkan">
+    <mxGraphModel dx="703" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HLt9KWTc81gghB126JCn-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HLt9KWTc81gghB126JCn-2" target="HLt9KWTc81gghB126JCn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-2" value="TampilRiwayatPemasukkan(MySqlConnection, mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HLt9KWTc81gghB126JCn-4" target="HLt9KWTc81gghB126JCn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-4" value="string query = &quot;SELECT * FROM transaksi WHERE email = &#39;{mail}&#39; AND jenis_transaksi = &#39;+ (pemasukkan)&#39;&quot;&lt;div&gt;MysqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;MySqlDataReader reader =cmd.ExecuteReader()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="110" width="335" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HLt9KWTc81gghB126JCn-7" target="HLt9KWTc81gghB126JCn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HLt9KWTc81gghB126JCn-7" target="HLt9KWTc81gghB126JCn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-7" value="reader.Read()" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="155" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-8" value="output&amp;nbsp;&lt;div&gt;reader[&#39;jenis_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;saldo_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;tanggal_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;keterangan_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;id_transaksi&#39;]&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-9" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="155" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HLt9KWTc81gghB126JCn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HLt9KWTc81gghB126JCn-8" target="HLt9KWTc81gghB126JCn-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="DwCSGdMxxaR6QBLuqLQT" name="Page-7">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="DwCSGdMxxaR6QBLuqLQT" name="TampilRiwayatPengeluaran">
+    <mxGraphModel dx="375" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Ew9WViF00O0LJW6UdYT-2" target="3Ew9WViF00O0LJW6UdYT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-2" value="TampilRiwayatPengeluaran(MySqlConnection, mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Ew9WViF00O0LJW6UdYT-4" target="3Ew9WViF00O0LJW6UdYT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-4" value="string query = &quot;SELECT * FROM transaksi WHERE email = &#39;{mail}&#39; AND jenis_transaksi = &#39;- (pengeluaran)&#39;&quot;&lt;div&gt;MysqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;MySqlDataReader reader =cmd.ExecuteReader()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="110" width="335" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Ew9WViF00O0LJW6UdYT-7" target="3Ew9WViF00O0LJW6UdYT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Ew9WViF00O0LJW6UdYT-7" target="3Ew9WViF00O0LJW6UdYT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-7" value="reader.Read()" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="155" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-8" value="output&amp;nbsp;&lt;div&gt;reader[&#39;jenis_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;saldo_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;tanggal_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;keterangan_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;id_transaksi&#39;]&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-9" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="155" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ew9WViF00O0LJW6UdYT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3Ew9WViF00O0LJW6UdYT-8" target="3Ew9WViF00O0LJW6UdYT-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
