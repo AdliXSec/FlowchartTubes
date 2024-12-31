@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xb_vYQppYyi4sKvNpap2" name="Register">
-    <mxGraphModel dx="312" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,23 +457,59 @@
             <mxPoint x="390.0000000000001" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-24" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUpiZvgWu_iz0Ix72_Ge-20">
+          <mxGeometry x="-0.6384" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wUpiZvgWu_iz0Ix72_Ge-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-25" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUpiZvgWu_iz0Ix72_Ge-23">
+          <mxGeometry x="-0.4853" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wUpiZvgWu_iz0Ix72_Ge-18" value="pass == ulangpass" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="185" y="1000" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-21" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="312.5" y="1170" width="160" height="40" as="geometry" />
+        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wUpiZvgWu_iz0Ix72_Ge-21" target="wUpiZvgWu_iz0Ix72_Ge-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-22" value="" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="325" y="1240" width="100" height="60" as="geometry" />
+        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-21" value="string query &quot;INSERT INTO user (name_user, email_user, password_user) VALUES (&#39;{name}&#39;, &#39;{email}&#39;, &#39;{password}&#39;)&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1170" width="367.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-22" value="output &quot;Data berhasil di tambah&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="221.25" y="1240" width="305" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUpiZvgWu_iz0Ix72_Ge-26" value="output &quot;password tidk sama&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-47.5" y="1160" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rBiqcdUvH6UjehRDOXX-" name="Page-4">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="281" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-1" target="iE9ElDGPZ5L5FCWbpP_P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-1" value="RiwayatTransaksi(MySqlConnection connection, string mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iE9ElDGPZ5L5FCWbpP_P-2" target="iE9ElDGPZ5L5FCWbpP_P-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-2" value="output &quot;&lt;div&gt;1. semua transaksi&lt;/div&gt;&lt;div&gt;2. pemasukkan&lt;/div&gt;&lt;div&gt;3. pengeluaran&quot;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iE9ElDGPZ5L5FCWbpP_P-4" value="input menu" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
