@@ -763,24 +763,114 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Oh5Gu2cLrY-zXJqtfQYh" name="Page-9">
-    <mxGraphModel dx="281" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="Oh5Gu2cLrY-zXJqtfQYh" name="TambahPemasukkan">
+    <mxGraphModel dx="1974" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEP15oQsmgfy_Tasm4h7-1" target="KEP15oQsmgfy_Tasm4h7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-1" value="TambahPemasukkan(MySqlConnection connection, string, mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KEP15oQsmgfy_Tasm4h7-2" target="KEP15oQsmgfy_Tasm4h7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-2" value="&lt;div&gt;DateTime now = DateTime.Now;&lt;/div&gt;string query = &quot;INSERT INTO transaksi (jenis_transaksi, saldo_transaksi, keterangan_transaksi, tanggal_transaksi, email_user) VALUES (&#39;+ (pemasukkan)&#39;, &#39;{jumlah}&#39;, &#39;{keterangan}&#39;, &#39;{now}&#39;, &#39;{mail}&#39;)&quot;&lt;div&gt;string queryUpdateUser = &quot;UPDATE user SET saldo_user = saldo_user + {jumlah} WHERE email_user = &#39;{mail}&#39;)&quot;&lt;/div&gt;&lt;div&gt;MySqlCommand updateUser = new MySqlCommand(queryUpdateUser, connection)&lt;/div&gt;&lt;div&gt;updateUser.ExecuteNonQuery()&lt;/div&gt;&lt;div&gt;MysqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;cmd.ExecuteNonQuery()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-311.25" y="460" width="1112.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEP15oQsmgfy_Tasm4h7-3" target="KEP15oQsmgfy_Tasm4h7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-3" value="output &quot;jumlah&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEP15oQsmgfy_Tasm4h7-4" target="KEP15oQsmgfy_Tasm4h7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-4" value="input jmlah" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEP15oQsmgfy_Tasm4h7-5" target="KEP15oQsmgfy_Tasm4h7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-5" value="output &quot;keterangan&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KEP15oQsmgfy_Tasm4h7-6" target="KEP15oQsmgfy_Tasm4h7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-6" value="input keterangan" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KEP15oQsmgfy_Tasm4h7-12" target="KEP15oQsmgfy_Tasm4h7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-12" value="output &quot;Data berhasil di tambah&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="105" y="590" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEP15oQsmgfy_Tasm4h7-13" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="710" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="jJHAO4n0k3gFQxZKkAif" name="Page-10">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="jJHAO4n0k3gFQxZKkAif" name="TambahPengeluaran">
+    <mxGraphModel dx="1225" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TTusesXK6snIiTDmlrKN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TTusesXK6snIiTDmlrKN-2" target="TTusesXK6snIiTDmlrKN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-2" value="TambahPengeluaran(MySqlConnection connection, string, mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TTusesXK6snIiTDmlrKN-4" target="TTusesXK6snIiTDmlrKN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-4" value="&lt;div&gt;DateTime now = DateTime.Now;&lt;/div&gt;string query = &quot;INSERT INTO transaksi (jenis_transaksi, saldo_transaksi, keterangan_transaksi, tanggal_transaksi, email_user) VALUES (&#39;- (pengeluaran)&#39;, &#39;{jumlah}&#39;, &#39;{keterangan}&#39;, &#39;{now}&#39;, &#39;{mail}&#39;)&quot;&lt;div&gt;string queryUpdateUser = &quot;UPDATE user SET saldo_user = saldo_user - {jumlah} WHERE email_user = &#39;{mail}&#39;)&quot;&lt;/div&gt;&lt;div&gt;MySqlCommand updateUser = new MySqlCommand(queryUpdateUser, connection)&lt;/div&gt;&lt;div&gt;updateUser.ExecuteNonQuery()&lt;/div&gt;&lt;div&gt;MysqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;cmd.ExecuteNonQuery()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-311.25" y="460" width="1112.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TTusesXK6snIiTDmlrKN-6" target="TTusesXK6snIiTDmlrKN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-6" value="output &quot;jumlah&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TTusesXK6snIiTDmlrKN-8" target="TTusesXK6snIiTDmlrKN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-8" value="input jmlah" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TTusesXK6snIiTDmlrKN-10" target="TTusesXK6snIiTDmlrKN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-10" value="output &quot;keterangan&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TTusesXK6snIiTDmlrKN-12" target="TTusesXK6snIiTDmlrKN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-12" value="input keterangan" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TTusesXK6snIiTDmlrKN-14" target="TTusesXK6snIiTDmlrKN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-14" value="output &quot;Data berhasil di tambah&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="105" y="590" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTusesXK6snIiTDmlrKN-15" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="710" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="xw32kB-x65UVQrHDTItI" name="Page-11">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="281" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
