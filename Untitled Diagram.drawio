@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2" pages="20">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Main">
-    <mxGraphModel dx="1951" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1617" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -242,7 +242,7 @@
         <mxCell id="o_y-yCnsaIl0wx6K46yE-4" value="CariTransaksi(connection, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="1130" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_y-yCnsaIl0wx6K46yE-5" value="Profile(connection, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="o_y-yCnsaIl0wx6K46yE-5" value="Profile(connection, connectionString, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="1250" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o_y-yCnsaIl0wx6K46yE-6" value="Catatan(connection, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -702,7 +702,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qWGLciHHOkxmpp1YJJn4" name="MenuTambah">
-    <mxGraphModel dx="375" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="486" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -907,19 +907,103 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="pwVD9XBtoPRLLaczFRUM" name="Page-12">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="pwVD9XBtoPRLLaczFRUM" name="CariTransaksi">
+    <mxGraphModel dx="281" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DV-xIsnOQ_8SlD0mz0KI-2" target="DV-xIsnOQ_8SlD0mz0KI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-2" value="CariCatatan(MySqlConnection connection, string mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="65" y="30" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-3" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-4" value="output &quot;cari : &quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DV-xIsnOQ_8SlD0mz0KI-6" target="DV-xIsnOQ_8SlD0mz0KI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-6" value="input cari" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DV-xIsnOQ_8SlD0mz0KI-8" target="DV-xIsnOQ_8SlD0mz0KI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-8" value="output&amp;nbsp;&lt;div&gt;reader[jenis_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;saldo_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;tanggal_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;keterangan_transaksi&#39;]&lt;/div&gt;&lt;div&gt;reader[&#39;id_transakasi&#39;]&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DV-xIsnOQ_8SlD0mz0KI-10" target="DV-xIsnOQ_8SlD0mz0KI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DV-xIsnOQ_8SlD0mz0KI-10" value="string query = &quot;SELECT * FROM transaksi WHERE keterangan_transaksi LIKE &#39;%{cari}%&#39; AND email_user = &#39;{mail}&#39;&quot;&lt;div&gt;MySqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;MySqlDataReader reader = cmd.ExecuteReader()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="230" width="245" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Gpvb8E_5_BGcY_b56tVv" name="Page-13">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="Gpvb8E_5_BGcY_b56tVv" name="Profile">
+    <mxGraphModel dx="486" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-2" target="AoG43dRCT-iMqWZ0EYK9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-2" value="Profile(MySqlConnection, string mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-4" target="AoG43dRCT-iMqWZ0EYK9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-4" value="output &quot;&lt;div&gt;1. Edit Profile&lt;/div&gt;&lt;div&gt;2. Hapus Akun&lt;/div&gt;&lt;div&gt;3. kembali&quot;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="120" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-6" target="AoG43dRCT-iMqWZ0EYK9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-6" value="input menu" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="95" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-9" target="AoG43dRCT-iMqWZ0EYK9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-9" target="AoG43dRCT-iMqWZ0EYK9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-9" value="menu == 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-11" target="AoG43dRCT-iMqWZ0EYK9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-11" value="menu == 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-14" target="AoG43dRCT-iMqWZ0EYK9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AoG43dRCT-iMqWZ0EYK9-14" target="AoG43dRCT-iMqWZ0EYK9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-14" value="menu == 3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95" y="430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-15" value="EditProfile(connection, connectionString, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="265" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-16" value="HapusAkun(connection, connectionString, mail)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-17" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AoG43dRCT-iMqWZ0EYK9-18" value="break" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
