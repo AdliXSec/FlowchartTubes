@@ -285,7 +285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NKYOX07cZHUkGJWVWnNs" name="Login">
-    <mxGraphModel dx="703" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="331" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,41 +296,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-2" value="output &quot;Email &quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="192.5" y="190" width="125" height="60" as="geometry" />
+          <mxGeometry x="192.5" y="278" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vfvtx75xK85Xrq4w2MA0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-1" target="Vfvtx75xK85Xrq4w2MA0-2">
+        <mxCell id="Vfvtx75xK85Xrq4w2MA0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-1" target="gk4Qz9Gn5-OdPOelekpD-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-4" target="Vfvtx75xK85Xrq4w2MA0-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-4" value="output email" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="192.5" y="280" width="125" height="40" as="geometry" />
+          <mxGeometry x="192.5" y="368" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-6" target="Vfvtx75xK85Xrq4w2MA0-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-6" value="output &quot;Pass &quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="192.5" y="360" width="125" height="60" as="geometry" />
+          <mxGeometry x="192.5" y="448" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-8" value="output pass" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="192.5" y="450" width="125" height="40" as="geometry" />
+          <mxGeometry x="192.5" y="538" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-13" value="string query = &quot;SELECT * FROM user WHERE email_user = &#39;&quot;+email+&quot;&#39; AND password_user = &#39;&quot;+pass+&quot;&#39;&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="106.25" y="550" width="297.5" height="50" as="geometry" />
+          <mxGeometry x="106.25" y="638" width="297.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-8" target="Vfvtx75xK85Xrq4w2MA0-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-15" value="MySqlCommand cmd = new MySqlCommand(query, connectionString)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MySqlDataReader reader = cmd.ExecuteReader()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="110" y="650" width="290" height="80" as="geometry" />
+          <mxGeometry x="110" y="738" width="290" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-13" target="Vfvtx75xK85Xrq4w2MA0-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-17" target="Vfvtx75xK85Xrq4w2MA0-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="910" as="targetPoint" />
+            <mxPoint x="420" y="998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-21" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vfvtx75xK85Xrq4w2MA0-19">
@@ -340,35 +340,50 @@
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-17" target="Vfvtx75xK85Xrq4w2MA0-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="980" as="targetPoint" />
+            <mxPoint x="255" y="1068" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-17" value="reader.Read()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="205" y="780" width="100" height="100" as="geometry" />
+          <mxGeometry x="205" y="868" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-15" target="Vfvtx75xK85Xrq4w2MA0-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-20" value="string mail = &quot;&quot;+reader[&quot;email_user&quot;]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="360" y="890" width="150" height="50" as="geometry" />
+          <mxGeometry x="360" y="978" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-24" value="return &quot;0&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="205" y="990" width="100" height="60" as="geometry" />
+          <mxGeometry x="205" y="1078" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-25" value="return mail" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="385" y="970" width="100" height="60" as="geometry" />
+          <mxGeometry x="385" y="1058" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vfvtx75xK85Xrq4w2MA0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfvtx75xK85Xrq4w2MA0-20" target="Vfvtx75xK85Xrq4w2MA0-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="gk4Qz9Gn5-OdPOelekpD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gk4Qz9Gn5-OdPOelekpD-1" target="Vfvtx75xK85Xrq4w2MA0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gk4Qz9Gn5-OdPOelekpD-1" value="MySqlConnection connection = new MySqlConnection(connectionString)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="160" width="265" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="xb_vYQppYyi4sKvNpap2" name="Page-3">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="xb_vYQppYyi4sKvNpap2" name="Register">
+    <mxGraphModel dx="375" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ETQKiCGRclhmhCZ7WW7a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WpF2C0V4XYMtrKnIfoyj-1" target="ETQKiCGRclhmhCZ7WW7a-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WpF2C0V4XYMtrKnIfoyj-1" value="Register(string connectionString)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="20" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETQKiCGRclhmhCZ7WW7a-1" value="MySqlConnection connection = new MySqlConnection(connectionString)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="120" width="265" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
