@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2" pages="20">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2" pages="21">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Main">
     <mxGraphModel dx="1617" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,7 +285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NKYOX07cZHUkGJWVWnNs" name="Login">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1807" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xb_vYQppYyi4sKvNpap2" name="Register">
-    <mxGraphModel dx="1282" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2518" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -505,7 +505,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rBiqcdUvH6UjehRDOXX-" name="RiwayatTransaksi">
-    <mxGraphModel dx="432" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1446,6 +1446,102 @@
         </mxCell>
         <mxCell id="ez3znyRF7gO1vFKbqBnJ-12" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="90" y="640" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JQ8eGQ8UuEk6FI10mFEd" name="InfoUser">
+    <mxGraphModel dx="1807" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OJkwHm7mEICJMuvle5u6-1" target="Ou8Udy4f9FnKXA7MlIHt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OJkwHm7mEICJMuvle5u6-1" value="InfoUser(MySqlConnection connection, string mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="20" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-1" target="Ou8Udy4f9FnKXA7MlIHt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-1" value="string query = &quot;SELECT * FROM user WHERE email = &#39;{mail}&#39;&quot;&lt;div&gt;MysqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;MySqlDataReader reader =cmd.ExecuteReader()&lt;/div&gt;&lt;div&gt;reader.Read()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="120" width="335" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-2" target="Ou8Udy4f9FnKXA7MlIHt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-2" value="output&amp;nbsp;&lt;div&gt;reader[&quot;name_user&quot;]&lt;/div&gt;&lt;div&gt;reader[&quot;email_user&quot;]&lt;/div&gt;&lt;div&gt;reader[&quot;saldo_user&quot;]&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="240" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-3" target="Ou8Udy4f9FnKXA7MlIHt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-5" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ou8Udy4f9FnKXA7MlIHt-4">
+          <mxGeometry x="-0.5874" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-3" target="Ou8Udy4f9FnKXA7MlIHt-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100.00000000000023" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="400" />
+              <mxPoint x="160" y="880" />
+              <mxPoint x="415" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-3" value="reader[&quot;target_user&quot;] &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="338" y="340" width="154" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-6" target="Ou8Udy4f9FnKXA7MlIHt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-6" value="output &quot;Target Kamu &quot;+reader[&quot;target_user&quot;]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="550" y="490" width="167" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-7" target="Ou8Udy4f9FnKXA7MlIHt-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-10" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ou8Udy4f9FnKXA7MlIHt-9">
+          <mxGeometry x="-0.6767" y="-4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-7" target="Ou8Udy4f9FnKXA7MlIHt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-14" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ou8Udy4f9FnKXA7MlIHt-13">
+          <mxGeometry x="-0.1854" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-7" value="reader[&quot;saldo_user&quot;] &amp;gt; reader[&quot;target_user&quot;]" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="610" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-11" value="output &quot;(target kamu sudah&lt;div&gt;&amp;nbsp;tercapai)&quot;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="717" y="760" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-12" target="Ou8Udy4f9FnKXA7MlIHt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-12" value="output &quot;(target kamu belum&lt;div&gt;&lt;div&gt;&amp;nbsp;tercapai kurang dari {&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;reader[&quot;target_user&quot; -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;reader[&quot;saldo_user&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;})&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-20" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="365" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou8Udy4f9FnKXA7MlIHt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ou8Udy4f9FnKXA7MlIHt-11" target="Ou8Udy4f9FnKXA7MlIHt-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="817" y="880" />
+              <mxPoint x="415" y="880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
