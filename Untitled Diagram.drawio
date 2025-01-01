@@ -1007,11 +1007,81 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="0kVwmRAdRsTbGdHoP5-X" name="Page-14">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="0kVwmRAdRsTbGdHoP5-X" name="EditProfile">
+    <mxGraphModel dx="372" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-1" target="Vb6VOiTfZep1hh77LTJg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-1" value="EditProfile(MysqlConnection connection, string connectionString, string mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="105" y="20" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="950" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-3" target="Vb6VOiTfZep1hh77LTJg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-3" value="output &quot;new name&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-4" target="Vb6VOiTfZep1hh77LTJg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-4" value="input name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-5" target="Vb6VOiTfZep1hh77LTJg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-5" value="output &quot;new mail&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-6" target="Vb6VOiTfZep1hh77LTJg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-6" value="input newEmail" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-15" target="Vb6VOiTfZep1hh77LTJg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-15" value="string email = Login(coonectionString)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-18" value="email == mail" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="480" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-21" target="Vb6VOiTfZep1hh77LTJg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-21" value="string query = &quot;UPDATE user SET name_user = &#39;{name}&#39;, email_user = &#39;{newEmail} WHERE email_user = &#39;{mail}&#39;&#39;&quot;&lt;div&gt;string queryTransaksi = &quot;UPDATE transaksi SET email_user = &#39;{newEmail}&#39; WHERE email_user = &#39;{mail}&#39;&quot;&lt;/div&gt;&lt;div&gt;string queryCatatan = &quot;UPDATE catatan SET email_user = &#39;{newEmail}&#39; WHERE email_user = &#39;{mail}&#39;&quot;&lt;/div&gt;&lt;div&gt;MySqlCommand cmdTransaksi = MySqlCommand(queryTransaksi, connection)&lt;/div&gt;&lt;div&gt;MySqlCommand cmd = MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;MySqlCommand cmdCatatan = MySqlCommand(queryCatatan, connection)&lt;/div&gt;&lt;div&gt;cmd.ExecuteNonQuery()&lt;/div&gt;&lt;div&gt;cmdTransaksi.ExecuteNonQuery()&lt;/div&gt;&lt;div&gt;cmdCatatan.ExecuteNonQuery()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="600" width="495" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-22" value="Data berhasil di edit muat ulang aplikasi" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="325" y="820" width="335" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-22" target="Vb6VOiTfZep1hh77LTJg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-25" value="password salah" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="30" y="640" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-25" target="Vb6VOiTfZep1hh77LTJg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
