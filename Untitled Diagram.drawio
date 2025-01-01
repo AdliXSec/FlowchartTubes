@@ -1008,7 +1008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0kVwmRAdRsTbGdHoP5-X" name="EditProfile">
-    <mxGraphModel dx="372" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1018,7 +1018,7 @@
         <mxCell id="Vb6VOiTfZep1hh77LTJg-1" value="EditProfile(MysqlConnection connection, string connectionString, string mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="105" y="20" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vb6VOiTfZep1hh77LTJg-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Vb6VOiTfZep1hh77LTJg-2" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="180" y="950" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vb6VOiTfZep1hh77LTJg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-3" target="Vb6VOiTfZep1hh77LTJg-4">
@@ -1056,9 +1056,19 @@
             <mxPoint x="80" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0UMOq9INr_AcDhwnPVTp-2" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vb6VOiTfZep1hh77LTJg-19">
+          <mxGeometry x="-0.5458" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Vb6VOiTfZep1hh77LTJg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vb6VOiTfZep1hh77LTJg-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0UMOq9INr_AcDhwnPVTp-1" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vb6VOiTfZep1hh77LTJg-20">
+          <mxGeometry x="-0.5109" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vb6VOiTfZep1hh77LTJg-18" value="email == mail" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
@@ -1085,11 +1095,102 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="3kBOuOrxlLTceS-cDpTs" name="Page-15">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="3kBOuOrxlLTceS-cDpTs" name="HapusAkun">
+    <mxGraphModel dx="1336" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-1" target="1lDkvtvq4HHOOzPaaTA4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-1" value="HapusAkun(MySqlConnection connection, string connectionString, string mail)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="10" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-2" target="1lDkvtvq4HHOOzPaaTA4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-2" value="output &quot;apakah anda yakin&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="125" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-3" target="1lDkvtvq4HHOOzPaaTA4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-3" value="input jawab" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.9999999999999" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTx7gdn_4d_wmOz2iSCZ-1" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1lDkvtvq4HHOOzPaaTA4-8">
+          <mxGeometry x="-0.2882" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfkDflINCQVfli1vbDlW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-4" target="cfkDflINCQVfli1vbDlW-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="400" />
+              <mxPoint x="-30" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTx7gdn_4d_wmOz2iSCZ-4" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfkDflINCQVfli1vbDlW-4">
+          <mxGeometry x="-0.8371" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-4" value="jawab == &quot;y&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-9" target="1lDkvtvq4HHOOzPaaTA4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-9" value="string oldMail = Login(connectionString)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTx7gdn_4d_wmOz2iSCZ-2" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1lDkvtvq4HHOOzPaaTA4-12">
+          <mxGeometry x="-0.4921" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfkDflINCQVfli1vbDlW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lDkvtvq4HHOOzPaaTA4-10" target="cfkDflINCQVfli1vbDlW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="710.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTx7gdn_4d_wmOz2iSCZ-3" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfkDflINCQVfli1vbDlW-2">
+          <mxGeometry x="-0.6414" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1lDkvtvq4HHOOzPaaTA4-10" value="oldMail == mail" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="590" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KWO4yKwo4pigWpp8b9iM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cfkDflINCQVfli1vbDlW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="979.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfkDflINCQVfli1vbDlW-1" value="string query = &quot;DELETE FROM user WHERE email_user = &#39;mail&#39;&lt;div&gt;MySqlCommand cmd = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;cmd.ExecuteNonQuery()&lt;/div&gt;&lt;div&gt;string queryTransaksi = &quot;DELETE FROM transaksi WHERE email_user = &#39;mail&#39;&lt;div&gt;MySqlCommand cmdTransaksi = new MySqlCommand(query, connection)&lt;/div&gt;&lt;div&gt;cmdTransaksi.ExecuteNonQuery()&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="720" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cfkDflINCQVfli1vbDlW-3" value="output &quot;password salah&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfkDflINCQVfli1vbDlW-6" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="980" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWO4yKwo4pigWpp8b9iM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cfkDflINCQVfli1vbDlW-3" target="cfkDflINCQVfli1vbDlW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
